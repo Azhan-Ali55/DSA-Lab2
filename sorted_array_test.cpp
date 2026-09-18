@@ -2,7 +2,7 @@
 #include <cassert>
 using namespace std;
 
-// Function declaration (not impplemented initialy) 
+// Function declaration 
 bool isSorted(const int* arr, const int size);
 
 // Sorted array in ascending order
@@ -42,7 +42,7 @@ void testSortedDuplicateArray() {
 void testSingleElementArray() {
     int arr[] = {1};
     // Pass the array to the function and store it 
-    bool result = isSorted(arr, 5);
+    bool result = isSorted(arr, 1);
     
     // Now check using assert 
     assert(result == true);
